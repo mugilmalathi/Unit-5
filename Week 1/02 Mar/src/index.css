@@ -1,0 +1,74 @@
+.head{
+    color: teal;
+    padding-left: 280px;
+}
+.img{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+}
+#container{
+    width: 60%;
+    margin: auto;
+}
+#header{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#content{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+#left{
+    width: 40%;
+    height: 450px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#left > label{
+    color: teal;
+}
+#left > input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: teal;
+    text-align: center;
+}
+#enter{
+    width: 83%;
+    height: 40px;
+    border: 1px solid indianred;
+    background-color: indianred;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#right{
+    width: 100%;
+    height: 500px;
+    margin-left: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+table{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#table-row1 > td{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid gray;
+    color: teal;
+    text-align: center;
+    border-radius: 5px;
+}
