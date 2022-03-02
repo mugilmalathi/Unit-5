@@ -7,6 +7,7 @@
     width: 120px;
     height: 40px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 #container{
     width: 60%;
@@ -60,15 +61,23 @@
     border-radius: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-table{
+table, thead, tr, td{
     width: 80%;
     margin: auto;
     margin-top: 30px;
-}
-#table-row1 > td{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 1px solid gray;
-    color: teal;
+    color: indianred;
     text-align: center;
     border-radius: 5px;
 }
+
+table, tbody, tr, td{
+    color: teal;
+}
+/* table > tbody > tr > td{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 5px;
+} */
