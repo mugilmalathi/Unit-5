@@ -7,14 +7,9 @@ export function Books(){
          setCount(count+val);
      }
 
-     const sum = 0;
-     const totalBooks = ()=>{
-         setCount(sum+count);
-     }
-
      return (
         <div className="items">
-        <span className="bookcount">Books:<p>{count}</p></span>
+        <span className="bookcount">Books:<h4>{count}</h4></span>
         <br></br>
         <button className="addBook" onClick={()=>{
 
@@ -28,7 +23,7 @@ export function Books(){
         }}>REMOVE BOOK
         </button>
         <br></br>
-        <span className="totalBooks">Total Books: {count}</span>
+        <span className="totalBooks">Total Books:{count}</span>
     </div>
      )
 }
