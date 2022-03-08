@@ -17,7 +17,7 @@ function App() {
       <Inkpens/>
       </div>
 
-      <div className='totalItems'>Total Items:{}</div>
+      <div className="total">Total Items: {}</div>
       
     </div>
   );
