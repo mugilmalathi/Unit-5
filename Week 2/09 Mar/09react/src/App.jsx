@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import './App.css';
 // import { Todos } from './components/Todos';
-// import { Groceries } from './components/Groceries';
-import { Stopwatch } from './components/Stopwatch';
+ import { Groceries } from './components/Groceries';
+//import { Stopwatch } from './components/Stopwatch';
 
 
 function App() {
-  const [show, setShow] = useState(true);
+  //const [show, setShow] = useState(true);
   return (
     <div className="App">
-      {/* <Groceries/> */}
+      <Groceries/>
       {/* <Todos/> */}
-     { show ? <Stopwatch/> : "" }
+     {/* { show ? <Stopwatch/> : "" }
 
      <button className='button_time' onClick={()=>{
 
@@ -20,7 +20,7 @@ function App() {
        {
          show ? "Hide Timer" : "Show Timer"
          
-       }</button>
+       }</button> */}
     </div>
   );
 }

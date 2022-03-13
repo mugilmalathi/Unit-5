@@ -1,8 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-
-
-
 import { Body, Button } from './Components/Button';
 import { useState } from 'react';
 
@@ -15,7 +11,9 @@ function App() {
    <div className='App'>
            <Button theme={theme} onClick={()=>{
               setTheme(theme === "light" ?"dark" :"light")
-            }}>Change Color</Button>
+            }}>
+              Change Color
+              </Button>
 
      </div>
  )

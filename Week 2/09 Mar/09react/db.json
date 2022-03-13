@@ -1,0 +1,24 @@
+{
+  "groceries": [
+    {
+      "title": "egg",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "sugar",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "bread",
+      "purchased": false,
+      "id": 3
+    },
+    {
+      "title": "dhal",
+      "purchased": false,
+      "id": 4
+    }
+  ]
+}

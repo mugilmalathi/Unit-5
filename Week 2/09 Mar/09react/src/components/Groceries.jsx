@@ -6,16 +6,17 @@ export const Groceries = () => {
     const [groceries, setGroceries] = useState([])
     useEffect(()=>{
         axios
-        .get("http://localhost:3000/groceries")
+        .get("http://localhost:5000/groceries")
         .then(res=>{
             setGroceries(res.data);
         })
     }, [])
     return (
+        
         <div>
             <input type="text" onChange={(e)=>setText(e.target.value)}/>
             <button onClick={()=>{
-                fetch('http://localhost:3000/groceries' ,{
+                fetch('http://localhost:5000/groceries' ,{
                 method: "POST",
                 body: JSON.stringify({title: text, purchased: false}),
                 headers:{
@@ -23,6 +24,12 @@ export const Groceries = () => {
                 }
             })
             }}>Save Groceries</button>
-        </div>
+            <div>{axios
+        .get("http://localhost:5000/groceries")
+        .then(res=>{
+            setGroceries(res.data);
+        })}</div>
+            </div>
+
     )
 }

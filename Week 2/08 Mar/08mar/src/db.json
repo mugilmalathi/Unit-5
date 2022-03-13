@@ -1,8 +1,8 @@
 {
     "groceries": [
         {
-           "title": "",
-           "purchased": ""
+           "title": "sugar",
+           "purchased": "false"
         }
     ]
 }

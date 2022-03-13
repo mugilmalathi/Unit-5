@@ -1,12 +1,4 @@
-// import './button.css'
 import styled from "styled-components";
-
-// export const Button = ({children, onClick})=>{
-
-//     return(
-//         <button className="myButton" onClick={onClick}>{children}</button>
-//     )
-//     }
 
 const Button = styled.button`
     width: 100px;

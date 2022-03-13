@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "mugil",
+      "age": "25",
+      "email": "mugilarasan.malathi@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "Dhanush",
+      "age": "21",
+      "email": "dhanushpriyan2001@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "Manoj",
+      "age": "25",
+      "email": "manoj@gmail",
+      "id": 3
+    },
+    {
+      "username": "mugil",
+      "age": "78",
+      "email": "dhanushpriyan2001@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "sdf",
+      "age": "20",
+      "email": "dhanushpriyan2001@gmail.com",
+      "id": 5
+    }
+  ]
+}
