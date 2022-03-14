@@ -6,28 +6,11 @@ import axios from "axios";
 
 function App() {
 
-  const [show, setShow] = useState([]);
-
-  useEffect(()=>{
-    axios
-    .get("http://localhost:5000/groceries")
-    .then(res=>{
-      setShow(res.data);
-    })
-}, [])
-
-
   return (
     <div className="App">
       <Forms/>
-
-      <div className='showData'>
-      {show.map((e) =>(
-                <Forms setShow = {e} />
-            ))}
-      </div>
     </div>
-  );
+  )
 }
 
 export default App;

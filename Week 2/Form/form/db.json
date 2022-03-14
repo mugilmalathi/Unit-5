@@ -29,6 +29,12 @@
       "age": "20",
       "email": "dhanushpriyan2001@gmail.com",
       "id": 5
+    },
+    {
+      "username": "qwer",
+      "age": "25",
+      "email": "dhanushpriyan2001@gmail.com",
+      "id": 6
     }
   ]
 }

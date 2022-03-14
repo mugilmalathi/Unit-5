@@ -1,11 +1,11 @@
 import './App.css';
-import { Body, Button } from './Components/Button';
+import { Button } from './Components/Button';
 import { useState } from 'react';
 
 
 function App() {
 
- const [theme, setTheme] = useState("light || green || indianred || white ");
+ const [theme, setTheme] = useState("light");
  
  return (
    <div className='App'>
