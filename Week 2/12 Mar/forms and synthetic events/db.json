@@ -1,0 +1,22 @@
+{
+  "forms": [
+    {
+      "name": "mugil",
+      "age": "25",
+      "address": "dharmapuri",
+      "department": "private",
+      "salary": "85000",
+      "marital": "no",
+      "id": 1
+    },
+    {
+      "name": "Dhanush",
+      "age": "21",
+      "address": "Dharmapuri",
+      "department": "Private",
+      "salary": "97000",
+      "marital": "No",
+      "id": 2
+    }
+  ]
+}
