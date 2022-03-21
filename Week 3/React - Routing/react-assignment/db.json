@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hair Dryer",
+      "image":"",
+      "price": "2300"
+    },
+    {
+      "id": 2,
+      "name": "Cocunut Oil",
+      "image":"",
+      "price": "340"
+    },
+    {
+      "id": 3,
+      "name": "Axe Perfume",
+      "image":"",
+      "price": "659"
+    },
+    {
+      "id": 4,
+      "name": "Face Wash Cream",
+      "image":"",
+      "price": "99"
+    }
+  ]
+}
