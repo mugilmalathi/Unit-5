@@ -18,21 +18,21 @@ export const Rentals = () => {
     })
   }
 
-  const handleSorting = ()=>{
-    setSort(!sort);
-  }
+  // const handleSorting = ()=>{
+  //   setSort(!sort);
+  // }
 
 
   return (
     <div className="rentalContainer">
       <div className="sortingButtons">
         <button className="sortById">Sort by ID</button>
-        <button className="sortByRentAsc" onClick={handleSorting}>
+        <button className="sortByRentAsc" >
           {/* {
         data.sort((itema, itemb)=> (sort ? itema.rent - itemb.rent : true))
       } */}
           Rent Low to high</button>
-        <button className="sortByRentDesc" onClick={handleSorting}>Rent High to low</button>
+        <button className="sortByRentDesc" >Rent High to low</button>
         <button className="sortByAreaAsc">Area Low to high</button>
         <button className="sortByAreaDesc">Area High to Low</button>
       </div>

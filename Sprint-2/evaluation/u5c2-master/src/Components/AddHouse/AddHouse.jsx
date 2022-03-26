@@ -60,10 +60,10 @@ export const AddHouse = () => {
         <label>preferredTenant</label>
         <br />
         <label>bachelor</label>
-        <input checked={houseData.bachelor} type="checkbox" className="bachelor" onChange={handleChange}/>
+        <input value={houseData.bachelor} type="checkbox" className="bachelor" onChange={handleChange}/>
         <br />
         <label>married</label>
-        <input checked={houseData.married} type="checkbox" className="married" onChange={handleChange}/>
+        <input value={houseData.married} type="checkbox" className="married" onChange={handleChange}/>
         <br />
         <label>image</label>
         <input value={houseData.image} type="text" className="image" required onChange={handleChange}/>
