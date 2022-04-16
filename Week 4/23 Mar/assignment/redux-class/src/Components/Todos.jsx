@@ -24,7 +24,13 @@ export const Todo = ()=>{
             <br />
             <input id="IA" placeholder="IA Standup" type="text" onChange={(e)=> setText(e.target.value)} />
             <br />
-            <button onClick={()=>{
+            <button style={{
+                marginLeft: "80px",
+                backgroundColor: "teal",
+                marginBottom: "50px",
+                border: "1px solid teal",
+                cursor: "pointer"
+            }} onClick={()=>{
                 dispatch(addTodo(text))
             }}
             >
@@ -65,21 +71,29 @@ export const Todo = ()=>{
                       </thead>
                       <tbody id="pass">
             {todo.map((e)=>(
-                          <tr>
-                              <td>{e}</td>
-                              <td>{e}</td>
-                              <td>{e}</td>
-                              <td>{e}</td>
-                              <td>{e}</td>
-                              <td><button onClick={()=>{
-                                  if(true){
-                                    e.pass.style.color = "green";
-                                  }
-                              }}>Status</button></td>
-                              <td><button onClick={()=>{
+                <tr>
+                    <td>{e}</td>
+                    <td>{e}</td>
+                    <td>{e}</td>
+                    <td>{e}</td>
+                    <td>{e}</td>
+                    <td><button style={{
+                        backgroundColor: "teal",
+                        border: "1px solid teal",
+                        cursor: "pointer"
+                    }} onClick={() => {
+                        if (true) {
+                            e.pass.style.color = "green";
+                        }
+                    }}>Status</button></td>
+                    <td><button style={{
+                        backgroundColor: "teal",
+                        border: "1px solid teal",
+                        cursor: "pointer"
+                    }} onClick={() => {
 
-                              }}>Delete</button></td>
-                          </tr>
+                    }}>Delete</button></td>
+                </tr>
                       
                       ))}
                       </tbody>

@@ -1,0 +1,88 @@
+{
+  "table": [
+    {
+      "id": 1,
+      "country": "India",
+      "city": "typicode",
+      "population": "19,000,000"
+    },
+    {
+      "id": 2,
+      "country": "Srilanka",
+      "city": "Colombo",
+      "population": "5,600,000"
+    },
+    {
+      "id": 3,
+      "country": "USA",
+      "city": "Chicago",
+      "population": "2,920,000"
+    },
+    {
+      "id": "4",
+      "country": "Malaysia",
+      "city": "Penang",
+      "population": "5600000"
+    },
+    {
+      "id": "5",
+      "country": "China",
+      "city": "China",
+      "population": "12400000"
+    },
+    {
+      "id": "6",
+      "country": "Japan",
+      "city": "japango",
+      "population": "900000"
+    },
+    {
+      "id": "7",
+      "country": "India",
+      "city": "Chennai",
+      "population": "12000000"
+    },
+    {
+      "id": "10",
+      "country": "India",
+      "city": "Hyderabad",
+      "population": "5678999"
+    },
+    {
+      "id": "8",
+      "country": "India",
+      "city": "Kerala",
+      "population": "24569000"
+    }
+  ],
+  "country": [
+    {
+      "id": "1",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "country": "China"
+    },
+    {
+      "id": "3",
+      "country": "US"
+    },
+    {
+      "id": "4",
+      "country": "Japan"
+    },
+    {
+      "id": "5",
+      "country": "Turkey"
+    },
+    {
+      "id": "6",
+      "country": "UK"
+    },
+    {
+      "id": "7",
+      "country": "Srilanka"
+    }
+  ]
+}

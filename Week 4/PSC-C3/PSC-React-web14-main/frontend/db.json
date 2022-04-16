@@ -1,0 +1,56 @@
+{
+  "books":[
+      {
+          "title":"Ponniyin Selvan",
+          "imageUrl":"https://igimages.gumlet.io/tamil/home/e78y1knvcaugvqb.jpg?w=376&dpr=2.6",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "reviews":[
+              "An impressive work of scholarship . . . . if you have any questions about our national bird, Mr. Davis’s The Bald Eagle is a great place to look for answers.",
+              "Splendid.... [Davis] is a meticulous historian and researcher as well as a master storyteller – an irresistible combination.",
+              "Combining natural, political, and cultural histories, Davis offers a wealth of surprising information and demolishes popular misconceptions . . . Well-timed humor... keeps things moving, and his writing is vivid . . . This account soars.",
+              "This fascinating and readable work will appeal to fans of the majestic bald eagle and those interested in the natural, cultural, and political history of the United States."
+          ],
+          "author":"kalki",
+          "price":1449,
+          "section":"history",
+          "isbnNumber":253421,
+          "id":1
+      },{
+          "title":"Kaatrin niram Karuppu",
+          "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/71EfmmLUlFL.jpg",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "reviews":[
+              "“Taut . . . a memorable cast, powerful action scenes, and authentic tradecraft . . . Series fans will appreciate the continuing evolution of the characters and the customary attention to tactical detail. Taylor reinforces his place as a major player in the military action section.”",
+              "American Traitor is frighteningly realistic and will cause a lot of sleepless nights in Washington. Brad Taylor is the best action writer in the business today, and Pike Logan is the right hero for our time.",
+              "“Taylor, who relies on his own elite experience in the Special Forces for both detail and authenticity, has never been better, and neither has his literary doppelganger, Pike Logan.” ","[S]parkling . . . we encounter O’Toole as a Zelig-like figure with an amusingly personal chain of connections to the great events and characters . . . the quiet heroes of We Don’t Know Ourselves are the Irish people, who O’Toole shows to have been ahead of their political and spiritual leaders in being ready to face the contradictions that underpinned national life . . . an uplifting, almost playful read, with suggestive analysis lying beneath skillful vignettes.",
+              "“Lose yourself in American Traitor and find yourself remembering what makes this country so great.”"
+          ],
+          "author":"Rajesh Kumar",
+          "price":1299,
+          "section":"mystery",
+          "isbnNumber":253421,
+          "id":6
+      },{
+          "title": "Velpaari",
+          "author": "Su Venkatesan",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/A15aJ58nr1L.jpg",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "reviews": ["excellent", "good", "not bad", "very bad"],
+          "price": 300,
+          "section": "mythology",
+          "isbnNumber":253421,
+          "id": 11
+      },
+      {
+          "title": "Steve Jobs",
+          "author": "Walter Isaacson",
+          "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1435338934i/25799556._UY500_SS500_.jpg",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "reviews": ["excellent", "good", "not bad", "very bad"],
+          "price": 100,
+          "section": "technology",
+          "isbnNumber":253421,
+          "id": 16
+      }
+  ]
+}
